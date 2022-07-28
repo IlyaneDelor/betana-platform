@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  betana-front:
+    container_name: betana-front
+    image: node:slim
+    working_dir: "/app"
+    command: "npm start"
+    volumes:
+      - ./betana-front:/app
+    ports:
+      - "3000:3000"
+
+
+
+
+#  betana-back:
+ #   image: mongo
+  #  restart: always
+  #  environment:
+  #    MONGO_INITDB_ROOT_USERNAME: root
+  #    MONGO_INITDB_ROOT_PASSWORD: root

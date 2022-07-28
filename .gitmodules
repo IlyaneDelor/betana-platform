@@ -1,0 +1,12 @@
+[submodule "betana-front"]
+	path = betana-front
+	url = https://github.com/betana-io/betana-front
+	branch = main
+[submodule "betana-back"]
+	path = betana-back
+	url = https://github.com/betana-io/betana-back
+	branch = main
+[submodule "betana-contract"]
+	path = betana-contract
+	url = https://github.com/betana-io/betana-contract
+	branch = main
